@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - PipoSport</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Productos de PipoSport</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="productos">
+            <h2>Productos Disponibles</h2>
+            <div class="producto">
+                <h3>Balones de Fútbol</h3>
+                <img src="img/balon.jpg" alt="Balón de Fútbol">
+                <p>Precio: $20.00</p>
+                <label for="talla-balon">Talla:</label>
+                <select id="talla-balon">
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                </select>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+                <h3>Camisetas</h3>
+                <img src="img/camiseta.jpg" alt="Camiseta de Fútbol">
+                <p>Precio: $30.00</p>
+                <label for="talla-camiseta">Talla:</label>
+                <select id="talla-camiseta">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </select>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+                <h3>Trajes de Fútbol</h3>
+                <img src="img/traje.jpg" alt="Traje de Fútbol">
+                <p>Precio: $50.00</p>
+                <label for="talla-traje">Talla:</label>
+                <select id="talla-traje">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </select>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+                <h3>Zapatos para Fútbol</h3>
+                <img src="img/zapatos.jpg" alt="Zapatos de Fútbol">
+                <p>Precio: $60.00</p>
+                <label for="talla-zapatos">Talla:</label>
+                <select id="talla-zapatos">
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+                <h3>Cintas de Capitán</h3>
+                <img src="img/cinta.jpg" alt="Cinta de Capitán">
+                <p>Precio: $5.00</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+                <h3>Espinilleras</h3>
+                <img src="img/espinilleras.jpg" alt="Espinilleras">
+                <p>Precio: $15.00</p>
+                <label for="talla-espinilleras">Talla:</label>
+                <select id="talla-espinilleras">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </select>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </div>
+        </section>
+
+        <section id="carrito">
+            <h2>Carrito de Compras</h2>
+            <div id="lista-carrito"></div>
+            <button id="generar-factura">Generar Factura</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PipoSport</p>
+    </footer>
+
+    <script src="js/scritps.js"></script>
+</body>
+</html>
+
